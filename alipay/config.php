@@ -1,0 +1,27 @@
+<?php
+$config = array (	
+		//应用ID,您的APPID。
+		'app_id' => "2017121000524012",
+
+		//商户私钥
+		'merchant_private_key' => "MIIEowIBAAKCAQEAs45kOG90XcHaeWA19eA3u2hmyIJ70K9TdStPBQcM9LQS2+VRWQU2+4voZKW2rvfzLp9Y5iVhcwyMU2d5dQDe5AGP3i3+3j9MRd2pw250NELcesn4nuI1G4NzIjqnynOc547/bER4SPcQszbFyAhWmflIcsUE+OcapkXCrPqFGIJvEVDh/0cVfaisN8WMZYxFP5HIbsCk7N7bncqr0IiEQEKBEAnwWwH/NubJVxfYUdp1Q9QaGSxckhrvIGoro5wBeeu5Iygku28zXZQ1lAzopY+CbkUHeAuNcT+eNhAiSwNdZ8M8RVumRQD8MusukGIV708tUZgldL0daQHGJu6VzwIDAQABAoIBAFPLB4ouuSdn6ATsmUH9OQUEW7MG8bEZoOD1LRMzjyBDSOnFwojAnkAVsoYFr5NHsvz28A23NBr0qCfkChJILbxJ3lHZNS+Sao3QPAEv8prQ+QN0bcn31sDYP0qiBNu9yGNnoFtuOJQUeH6p+PK4sXF5nA2zU/a0IwOlWoxO/P3KWMzDDMnbIVpdT9f8lPsSdBgKswE6W74GlkkQlgFX804Gc1t/vMScYcJJemPB4MejOr7YwLsZFoQ7ehq/Y2Jbk12GMwXVG219APufZaFrQT9fQPbI8XLZDJoP/5tYcX74nDlUOHVgj0djsTMlRczKMkEwWTvLGNHD3BQXOAVVZsECgYEA3DZkpL3my2PeJE3xt9g3N5j+EGuVPSINUZBk1Nhe5WawbM4IXhJdvPsrBPliRP8X9kG0yzQ00G2WbEK4+BCMkfK6xhfkUUB2qqrb+qleqWr8uo/01KeX56Ax2ULSeHVUizM2z8o1SM/wTujYX9tEBpiLk+4PYqQd7d07QWVlZLMCgYEA0LyOaTWGOw4VcbRJcWHx408iH7STsT9hveJ74N0gaFvdvGLKyxlbJg2Rm6z1OCx9gREXvrDJmONYh8TnQZ9BnC7rtHd56/eV6PxgOujupKfrgQmwfU/+3l/Y/QmKBx6FaUIBICE1ukTChqlOzGnZ1R6gjqPZetsYint5z7dyMHUCgYB8HqBthqfuXdTYq6IhmFnPGYmiIbFVarsNDRD4MxiRvmaUfTCULU/uc7dUr2enMg0EfRZ1LnDSReJyFM2C7Hj+zkxd2RuUfHwmR/WDfDFh1m6qjPdXYTsqj81pAtP0l1VWvEAZsISGDMYLBAzpQoI+IX8SmyzK0WwZJQgAHTGgJwKBgQCt8/VaiFiM7nfAglaSPuWuYUw2z+4lUITMEerawm03ixeG323RRBhJ5hTqf4D8h1cwMGZxbDMVTqGAw/9VGLs8xX14r/jTRUmRGIG5llUKs0X4C3Mhe4ETIR1cAo8cz7qutWrqs8JqsNLMFlyszanTieqT9MhRMjWJcs1Y5bAr4QKBgE2URCZTPsewJbVvclz0l/q8kCXC6akJLOBDDd17RCDx+Aymxd/XGVlgAMGh1HT/jW7fK7ySx9FpxFT/ys5s7WWWJcjjguqQFXOUsJTbbflMxPYS7Rv0Jh8rNm1q1KfM01OhpUgynY8TEejQw8VO5iu8pZdBG0K8fOuShDLh+7Zo",
+		
+		//异步通知地址
+		'notify_url' => "http://127.0.0.1/SHOP/alipay/notify_url.php",
+		
+		//同步跳转
+		'return_url' => "http://127.0.0.1/SHOP/alipay/return_url.php",
+
+
+		//编码格式
+		'charset' => "UTF-8",
+
+		//签名方式
+		'sign_type'=>"RSA2",
+
+		//支付宝网关
+		'gatewayUrl' => "https://openapi.alipay.com/gateway.do",
+
+
+		'alipay_public_key' => "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnLFMT18/yFCDEUnIUJV0jbznJgGbZysBIhx+8yEpy2fVI6Qo+Ovgdm3tLHCk2USzomeTADbgtqI1ldQWSGsSCRwQgRFEJe1yjUez304HkpsA+W+JA7oymEjrCBGQIlxpyEtpgjrcUhJbFf9SccMrJqJuPPcKlnP95fT6dwOgpba0MgRK3lHOEpO9xun9nV1awsoju2AXhR/wjiS2vbvIxkWApN2DtHElPIO95dI7GlVAmDqpNN9WEogg8V3kkSb2Rz6LfaOu1USjEyeiHDbjDzSotflMG4CPnonMy2XkuMlqXOCRY0eUNotnSliOr7uScEPEaFq9fBm19cU2u7SLfwIDAQAB",
+);

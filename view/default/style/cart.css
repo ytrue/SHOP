@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+#cart {
+	width:100%;
+	margin:10px 0;
+	background:#5CB4E6;
+}
+#cart th,#cart td {
+	height:25px;
+	line-height:25px;
+	background:#fff;
+}
+#cart th.th {
+	width:68px;
+}
+#cart td {
+	text-align:center;
+}
+#cart td.price {
+	color:red;
+}
+p strong.price {
+	font-size:20px;
+	color:red;
+}
+p {
+	text-align:right;
+	padding:10px;
+}
+p img {
+	border:none;
+}
+input.small {
+	width:30px;
+	border:1px solid #999;
+	background:#fff;
+	color:#666;
+	text-align:center;
+	font-weight:bold;
+}

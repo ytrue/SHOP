@@ -1,0 +1,147 @@
+@CHARSET "UTF-8";
+body,p,form,h1,h2,h3,ul,li,dl,dt,dd {
+	margin:0;
+	padding:0;
+}
+body {
+	font-size:12px;
+	background:#fff;
+	width:996px;
+	margin:0 auto;
+}
+ul {
+	list-style-type:none;
+}
+a {
+	color:#026ACB;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+span.red {
+	color:red;
+}
+span.green {
+	color:green;
+}
+#header {
+	height:60px;
+	margin:0 0 10px 0;
+}
+#header h1 {
+	width:200px;
+	height:60px;
+	background:url(../images/logo.png) no-repeat left center;
+	text-indent:-9999px;
+	font-size:12px;
+	float:left;
+}
+#header h1 a {
+	width:200px;
+	height:60px;
+	display:block;
+}
+#header div.top {
+	padding:10px 10px 0 0;
+	float:right;
+}
+#header div.top img {
+	border:none;
+}
+#nav {
+	height:26px;
+	padding:0 0 0 30px;
+}
+#nav ul {
+	height:26px;
+}
+#nav ul li {
+	height:26px;
+	width:82px;
+	float:left;
+	display:block;
+}
+#nav ul li a {
+	color:#026ACB;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	height:26px;
+	width:78px;
+	line-height:26px;
+	background:url(../images/nav_bg.png) no-repeat left center;
+}
+#nav ul li a:hover {
+	background-position:right;
+	color:#fff;
+}
+#nav ul li a.strong {
+	background-position:right;
+	color:#fff;
+}
+#search {
+	height:28px;
+	border:1px solid #5CB4E6;
+	background:url(../images/search_bgline.png);
+	padding:8px 0 0 530px;
+}
+#search a {
+	color:#fff;
+}
+#sait {
+	height:36px;
+	line-height:36px;
+	background:url(../images/sait_bg.png);
+	border:1px solid #C5E4FF;
+	border-top:none;
+	color:#333;
+	padding:0 0 0 15px;
+}
+#page {
+	text-align:center;
+	padding:20px;
+	clear:both;
+}
+#page a {
+	color:#335B64;
+	border:1px solid #666;
+	padding:2px 5px;
+	margin:0 2px;
+	text-decoration:none;
+}
+#page a:hover,#page span.me {
+	color:#fff;
+	border:1px solid #335B64;
+	background:#335B64;
+	text-decoration:none;
+}
+#page span.disabled {
+	border:1px solid #ccc;
+	padding:2px 5px;
+	margin:0 2px;
+	color:#ccc;
+}
+#page span.me {
+	padding:2px 5px;
+	margin:0 2px;
+}
+#page select.select {
+	width:120px;
+	background:#fff;
+	border:1px solid #ccc;
+}
+#page select.select optgroup {
+	font-style:normal;
+}
+#footer {
+	width:986px;
+	margin:0 auto;
+	float:left;
+	text-align:center;
+	padding:5px;
+	color:#666;
+}
+#footer p {
+	padding:2px;
+}

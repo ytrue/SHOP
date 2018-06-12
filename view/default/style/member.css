@@ -1,0 +1,268 @@
+@CHARSET "UTF-8";
+#sidebar {
+	width:200px;
+	float:left;
+	margin:10px 0 0 0;
+}
+#sidebar h2 {
+	height:34px;
+	line-height:34px;
+	padding:0 0 0 25px;
+	background:url(../images/h2_bg.png) no-repeat left center;
+	font-size:12px;
+	color:#56A5EE;
+}
+#sidebar ul {
+	border:1px solid #C5E4FF;
+	border-top:none;
+	padding:10px;
+	padding-left:30px;
+}
+#sidebar ul li {
+	height:20px;
+	line-height:20px;
+	background:url(../images/sidebar_line.png) no-repeat left center;
+	padding:0 0 0 25px;
+}
+#sidebar ul li a {
+	color:#369;
+	text-decoration:none;
+}
+#sidebar ul li a:hover {
+	color:#c30;
+	text-decoration:underline;
+}
+#sidebar ul li a span.gray {
+	color:gray;
+}
+#sidebar div {
+	border:1px solid #C5E4FF;
+	border-top:none;
+}
+#sidebar div dl {
+	color:#666;
+	padding:10px;
+	border-top:1px dashed #ccc;
+}
+#sidebar div dl dt img {
+	display:block;
+	border:1px solid #ccc;
+	margin:0 auto;
+}
+#sidebar div dl dd {
+	padding:5px 0 0 0;
+}
+#sidebar div dl dd.price {
+	font-size:14px;
+	font-family:Tahoma;
+	font-weight:bold;
+	text-align:center;
+}
+#sidebar div dl dd.title {
+	padding:5px 0 0 5px;
+}
+#sidebar div dl dd.title a {
+	color:#666;
+}
+#sidebar div p {
+	text-align:right;
+	padding:0 15px 10px 0;
+}
+#main {
+	width:785px;
+	float:right;
+	margin:10px 0 0 0;
+}
+#main h2 {
+	height:34px;
+	line-height:34px;
+	padding:0 0 0 25px;
+	background:url(../images/list_h2_bg.png) no-repeat left center;
+	font-size:12px;
+	color:#56A5EE;
+}
+#main div.filter, #main div.pro  {
+	margin:0 0 10px 0;
+	border:1px solid #C5E4FF;
+	border-top:none;
+}
+#main div.filter p {
+	color:#333;
+	padding:10px;
+}
+#main div.filter p span {
+	background:#C5E4FF;
+	padding:5px 5px;
+}
+#main div.filter p a {
+	text-decoration:underline;
+	padding:5px 5px;
+}
+#main div.filter p a:hover {
+	color:#f60;
+}
+#main div.pro {
+	height:2200px;
+}
+#main div.pro img {
+	border:none;
+	display:block;
+}
+#main div.pro dl {
+	width:224px;
+	float:left;
+	padding:15px 0 0 27px;
+}
+#main div.pro dl dt {
+	width:224px;
+	height:224px;
+	border:1px solid #C5E4FF;
+}
+#main div.pro dl dt img {
+	margin:2px 0 0 2px;
+}
+#main div.pro dl dd {
+	padding:8px 0 0 0;
+}
+#main div.pro dl dd.price strong {
+	font-size:16px;
+	color:red;
+	font-family:Tahoma;
+}
+#main div.pro dl dd.price del {
+	color:#999;
+}
+#main div.pro dl dd.title {
+	font-size:14px;
+}
+#main div.pro dl dd.commend {
+	text-align:center;
+}
+#main div.pro dl dd.commend a {
+	color:maroon;
+}
+#main div.pro dl dd.buy {
+	text-align:center;
+	color:#369;
+}
+#main div.pro dl dd.buy a {
+	color:#369;
+}
+#main form {
+	width:350px;
+	margin:0 auto;
+}
+#main form dl {
+	margin:10px 0;
+}
+#main form dl dd {
+	margin:5px 0;
+}
+#main form dl dd input.text {
+	width:200px;
+	height:20px;
+	border:1px solid #666;
+	background:#fff;
+}
+#main form dl dd input.submit {
+	width:139px;
+	height:21px;
+	background:url(../images/address.gif) no-repeat;
+	border:none;
+	margin:5px 0 0 60px;
+	cursor:pointer;
+}
+#cart {
+	width:100%;
+	margin:10px 0;
+	background:#5CB4E6;
+}
+#cart caption {
+	font-size:14px;
+	font-weight:bold;
+	margin:5px 0;
+	color:#026ACB;
+}
+#cart th,#cart td {
+	height:25px;
+	line-height:25px;
+	background:#fff;
+	font-weight:normal;
+}
+#cart th.th {
+	width:68px;
+}
+#cart td {
+	text-align:center;
+}
+#cart td.price {
+	color:red;
+}
+#cart td.left {
+	text-align:left;
+}
+#cart td.left textarea {
+	width:350px;
+	height:80px;
+	background:#fff;
+}
+.commend {
+	margin:10px 0;
+}
+.commend img {
+	display:block;
+	border:1px solid #ccc;
+	float:left;
+}
+.commend dl {
+	float:left;
+	padding:0 10px;
+}
+.commend dl dt {
+	font-size:14px;
+}
+.commend dl dd {
+	padding:10px 0;
+	color:#666;
+}
+.commend dl dd span.star {
+	color:orange;
+}
+.commend dl dd textarea {
+	width:380px;
+	height:75px;
+	background:#fff;
+	border:1px solid #ccc;
+}
+.commend dl dd input {
+	cursor:pointer;
+}
+.mycommend {
+	width:785px;
+	border-bottom:1px dashed #ccc;
+	margin:10px 0;
+	font-size:14px;
+	float:left;
+}
+.mycommend p {
+	padding:0 0 10px 0;
+}
+.mycommend p img {
+	width:150px;
+	height:150px;
+	border:1px solid #ccc;
+	margin:10px 0;
+	margin-right:10px;
+	float:left;
+}
+.mycommend .attr {
+	color:#666;
+}
+.mycommend em {
+	float:right;
+	color:#666;
+	font-style:normal;
+}
+.star {
+	color:orange;
+}

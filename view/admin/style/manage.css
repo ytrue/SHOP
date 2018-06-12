@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+dl.form input.text {
+	width:200px;
+}
+dl.form select {
+	width:202px;
+}
+dl.form input.submit {
+	margin:0 0 0 90px;
+	padding:2px 0;
+}

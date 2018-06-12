@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+.error {
+	border:1px solid #BBDDE5;
+	background:#EEF8F9;
+	padding:0 10px 10px 10px;
+}
+.error p {
+	padding:10px 0 0 0;
+	color:red;
+}
+.error p a {
+	text-decoration:none;
+	color:#335B64;
+}
+.error p a:hover {
+	color:#f60;
+	text-decoration:underline;
+}

@@ -1,0 +1,234 @@
+@CHARSET "UTF-8";
+#sidebar {
+	width:200px;
+	float:left;
+	margin:10px 0 0 0;
+}
+#sidebar h2 {
+	height:34px;
+	line-height:34px;
+	padding:0 0 0 25px;
+	background:url(../images/h2_bg.png) no-repeat left center;
+	font-size:12px;
+	color:#56A5EE;
+}
+#sidebar ul {
+	border:1px solid #C5E4FF;
+	border-top:none;
+	padding:10px;
+	padding-left:30px;
+}
+#sidebar ul li {
+	height:20px;
+	line-height:20px;
+	background:url(../images/sidebar_line.png) no-repeat left center;
+	padding:0 0 0 25px;
+}
+#sidebar ul li a {
+	color:#369;
+	text-decoration:none;
+}
+#sidebar ul li a:hover {
+	color:#c30;
+	text-decoration:underline;
+}
+#sidebar ul li a span.gray {
+	color:gray;
+}
+#sidebar div {
+	border:1px solid #C5E4FF;
+	border-top:none;
+}
+#sidebar div dl {
+	color:#666;
+	padding:10px;
+	border-top:1px dashed #ccc;
+}
+#sidebar div dl dt img {
+	display:block;
+	border:1px solid #ccc;
+	margin:0 auto;
+}
+#sidebar div dl dd {
+	padding:5px 0 0 0;
+}
+#sidebar div dl dd.price {
+	font-size:14px;
+	font-family:Tahoma;
+	font-weight:bold;
+	text-align:center;
+}
+#sidebar div dl dd.title {
+	padding:5px 0 0 5px;
+}
+#sidebar div dl dd.title a {
+	color:#666;
+}
+#sidebar div p {
+	text-align:right;
+	padding:0 15px 10px 0;
+}
+#main {
+	width:785px;
+	float:right;
+	margin:10px 0 0 0;
+}
+#main h2 {
+	font-size:14px;
+	color:#333;
+	border-bottom:1px dashed #ccc;
+	height:25px;
+	margin:0 0 10px 0;
+}
+#main dl.pic {
+	width:304px;
+	float:left;
+}
+#main dl.pic dt {
+	width:304px;
+	height:304px;
+	border:1px solid #ccc;
+}
+#main dl.pic dt img {
+	display:block;
+	border:none;
+	margin:2px 0 0 2px;
+}
+#main dl.pic dd {
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	color:#666;
+}
+#main dl.text {
+	color:#333;
+	width:450px;
+	float:right;
+}
+#main dl.text dd {
+	padding:6px 0;
+	color:#666;
+}
+#main dl.text dd span.sale {
+	font-size:20px;
+	color:red;
+	font-weight:bold;
+	font-family:Tahoma;
+}
+#main dl.text dd span.market {
+	font-family:Tahoma;
+	color:gray;
+	text-decoration:line-through;
+	padding:0 0 0 5px;
+}
+#main dl.text dd span.sale_num {
+	font-family:Tahoma;
+	font-weight:bold;
+	color:#c60;
+}
+#main dl.text dd span.gray {
+	color:#999;
+}
+#main dl.text dd input.num {
+	border:1px solid #999;
+	background:#fff;
+	height:18px;
+	width:30px;
+	color:#666;
+	padding:0 0 0 2px;
+}
+#main dl.text dd input.submit {
+	width:144px;
+	height:35px;
+	background:url(../images/buy.gif) no-repeat;
+	border:none;
+	cursor:pointer;
+	float:left;
+	margin:0 10px 0 0;
+}
+#main dl.text dd strong.is_up {
+	display:block;
+	height:35px;
+	line-height:35px;
+	float:left;
+	padding:0 10px 0 0;
+	font-size:16px;
+}
+#main dl.text dd.buy_button {
+	padding:10px 0 0 60px;
+}
+#main div.content {
+	padding:10px 0 0 0;
+	clear:both;
+	color:#333;
+}
+#main div.content ul {
+	height:30px;
+	background:url(../images/content_bg_point.png) repeat-x bottom;
+}
+#main div.content ul li {
+	height:30px;
+	line-height:30px;
+	width:86px;
+	background:url(../images/content_bg.png) no-repeat right center;
+	float:left;
+	margin:0 4px 0 0;
+	text-align:center;
+	cursor:pointer;
+}
+#main div.content ul li.first {
+	background-position:left;
+	color:#fff;
+}
+#main div.content div.c1,#main div.content div.c2, #main div.content div.c3, #main div.content div.c4 {
+	padding:10px 0;
+}
+.commend_left {
+	width:100px;
+	height:70px;
+	border-bottom:1px dashed #ccc;
+	float:left;
+	margin:10px 0;
+}
+.commend_left p {
+	padding:0 0 5px 0;
+}
+.commend_left .star {
+	color:orange;
+}
+.commend_right {
+	width:685px;
+	height:70px;
+	float:right;
+	border-bottom:1px dashed #ccc;
+	margin:10px 0;
+}
+.commend_right p {
+	padding:0 0 5px 0;
+}
+.commend_right .attr {
+	color:#666;
+}
+.commend_right em {
+	float:right;
+	color:#666;
+	font-style:normal;
+}
+.record th {
+	background:#eee;
+	padding:10px 0;
+}
+.record td {
+	padding:25px 0;
+	text-align:center;
+	border-bottom:1px dashed #ccc;
+}
+
+
+
+
+
+
+
+
+

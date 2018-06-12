@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+#reg form {
+	width:350px;
+	margin:0 auto;
+}
+#reg form dl {
+	margin:10px 0;
+}
+#reg form dl dd {
+	margin:5px 0;
+}
+#reg form dl dd input.text {
+	width:200px;
+	height:20px;
+	border:1px solid #666;
+	background:#fff;
+}
+#reg form dl dd input.submit {
+	margin:0 0 0 120px;
+	cursor:pointer;
+}

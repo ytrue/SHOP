@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+dl.form span.middle {
+	vertical-align:25px;
+}
+dl.form input.text {
+	width:349px;
+}
+dl.form input.small {
+	width:71px;
+}
+dl.form select {
+	width:202px;
+}
+dl.form select optgroup {
+	font-style:normal;
+	font-weight:normal;
+	color:#333;
+	background:#eee;
+}
+dl.form select option {
+	background:#fff;
+}
+dl.form textarea {
+	width:200px;
+	height:60px;
+}
+dl.form input.submit {
+	margin:0 0 0 90px;
+	padding:2px 0;
+}
+.sort {
+	border:1px solid #666;
+	width:30px;
+	background:#fff;
+	text-align:center;
+}

@@ -1,0 +1,150 @@
+@CHARSET "UTF-8";
+body,p,form,h1,h2,h3,ul,li,dl,dt,dd {
+	margin:0;
+	padding:0;
+}
+body {
+	font-size:12px;
+	background:#DDEEF2;
+}
+ul {
+	list-style-type:none;
+}
+a img {
+	border:none;
+}
+h2,dl.form {
+	border:1px solid #BBDDE5;
+	background:#F4FAFB;
+	font-size:14px;
+	color:#333;
+	margin:10px;
+	padding:10px;
+}
+h2 a {
+	text-decoration:none;
+	color:#335B64;
+	font-size:12px;
+	float:right;
+	background:url(../images/add.gif) no-repeat left center;
+	padding:0 0 0 18px;
+}
+h2 a:hover {
+	color:#f60;
+	text-decoration:underline;
+}
+a {
+	text-decoration:none;
+	color:#335B64;
+	font-size:12px;
+}
+a:hover {
+	color:#f60;
+	text-decoration:underline;
+}
+span.red {
+	color:red;
+}
+span.green {
+	color:green;
+}
+dl.form {
+	font-size:12px;
+}
+dl.form dd {
+	padding:4px 0;
+}
+dl.form input.text {
+	border:1px solid #666;
+	background:#fff;
+	height:18px;
+}
+dl.form select {
+	border:1px solid #666;
+	background:#fff;
+	height:22px;
+}
+dl.form textarea {
+	border:1px solid #666;
+	background:#fff;
+	font-size:13px;
+}
+dl.form input.submit {
+	cursor:pointer;
+}
+#list {
+	margin:0 10px;
+}
+#list table {
+	width:100%;
+	border:1px solid #BBDDE5;
+	background:#EEF8F9;
+}
+#list table th {
+	font-weight:normal;
+	height:30px;
+	line-height:30px;
+	background:url(../images/th_bg.gif);
+}
+#list table td {
+	height:29px;
+	line-height:29px;
+	text-align:center;
+}
+#list table tr {
+	background:#F4FAFB;
+}
+#list table tr:hover {
+	background:url(../images/th_bg.gif);	
+}
+#page {
+	text-align:center;
+	padding:10px;
+}
+#page a {
+	color:#335B64;
+	border:1px solid #666;
+	padding:2px 5px;
+	margin:0 2px;
+	text-decoration:none;
+}
+#page a:hover,#page span.me {
+	color:#fff;
+	border:1px solid #335B64;
+	background:#335B64;
+	text-decoration:none;
+}
+#page span.disabled {
+	border:1px solid #ccc;
+	padding:2px 5px;
+	margin:0 2px;
+	color:#ccc;
+}
+#page span.me {
+	padding:2px 5px;
+	margin:0 2px;
+}
+#page select.select {
+	width:120px;
+	background:#fff;
+	border:1px solid #ccc;
+}
+#page select.select optgroup {
+	font-style:normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
